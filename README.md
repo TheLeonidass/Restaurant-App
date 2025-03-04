@@ -2,16 +2,16 @@
 
 A restaurant management application made with Java FX and Scenebuilder. This app helps restaurant staff manage orders, menus, and customer interactions efficiently. Also customers can make reservations and orders.
 
-##  Customer Features
+## Features
 
-**Making Orders**
-**Making Reservations**
+### Customer Features
+- **Making Orders**: Customers can browse the menu and place orders directly through the app.
+- **Making Reservations**: Customers can book tables for specific dates and times.
 
-## Admin Features
-
-**Managing Orders**
-**Managing Reservations**
-**Display Statistics**
+### Admin Features
+- **Managing Orders**: Admins can view, update, and manage customer orders.
+- **Managing Reservations**: Admins can view and manage table reservations.
+- **Display Statistics**: Admins can access statistics for better decision-making.
 
 ![pic1](https://github.com/user-attachments/assets/3e75b6a8-09de-47c4-b162-1488c6c9de2f)
 
