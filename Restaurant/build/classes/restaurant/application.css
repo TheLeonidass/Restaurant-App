@@ -1,0 +1,92 @@
+.root{
+
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+#labelWelcome{
+    -fx-text-fill: black;
+}
+
+#anchorSignIn{
+    -fx-background-color:lightskyblue;
+    -fx-border-color:black;
+    -fx-border-width:3px;
+}
+
+#btnSignIn{
+    -fx-cursor:hand;
+}
+
+#anchorOrder{
+    -fx-background-color:lightskyblue;
+    -fx-border-color:black;
+    -fx-border-width:3px;
+}
+
+#btnMakeOrder{
+    -fx-cursor:hand;
+}
+
+#btnReserve{
+    -fx-cursor:hand;
+}
+
+#btnConfirm{
+    -fx-cursor:hand;
+}
+
+#btnExit{
+    -fx-cursor:hand;
+}
+
+#btnReturn{
+    -fx-cursor:hand;
+}
+
+#btnOrders{
+    -fx-cursor:hand;
+}
+
+#btnReservations{
+    -fx-cursor:hand;
+}
+
+#btnStatistics{
+    -fx-cursor:hand;
+}
+
+#btnSignOut{
+    -fx-cursor:hand;
+}
+
+#anchorReserve{
+    -fx-background-color:lightskyblue;
+    -fx-border-color:black;
+    -fx-border-width:3px;
+}
+
+#anchorManageRestaurant{
+    -fx-background-color:lightskyblue;
+    -fx-border-color:black;
+    -fx-border-width:3px;
+}
+
+#anchorOrders{
+    -fx-background-color:lightskyblue;
+    -fx-border-color:black;
+    -fx-border-width:3px;
+}
+
+#anchorReservations{
+    -fx-background-color:lightskyblue;
+    -fx-border-color:black;
+    -fx-border-width:3px;
+}
+
+#anchorStatistics{
+    -fx-background-color:lightskyblue;
+    -fx-border-color:black;
+    -fx-border-width:3px;
+}
+
+

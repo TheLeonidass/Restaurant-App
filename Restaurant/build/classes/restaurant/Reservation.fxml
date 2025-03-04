@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="576.0" prefWidth="720.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restaurant.ReservationController">
+   <children>
+      <ImageView fitHeight="106.0" fitWidth="173.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="anchorReserve" layoutY="104.0" prefHeight="360.0" prefWidth="726.0">
+         <children>
+            <Label fx:id="labelReserve" layoutX="230.0" layoutY="14.0" text="Make a Reservation">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+               </font>
+            </Label>
+            <Text layoutX="166.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="166.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Surname:">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="166.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number:">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="166.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date:">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="166.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a Table:">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+               </font>
+            </Text>
+            <TextField fx:id="textFieldName" layoutX="317.0" layoutY="70.0" />
+            <TextField fx:id="textFieldSurname" layoutX="317.0" layoutY="115.0" />
+            <TextField fx:id="textFieldPhone" layoutX="317.0" layoutY="160.0" />
+            <DatePicker fx:id="datePicker" layoutX="305.0" layoutY="205.0" />
+            <ChoiceBox fx:id="choiceBox" layoutX="317.0" layoutY="250.0" prefWidth="150.0" />
+            <Button fx:id="btnConfirm" layoutX="290.0" layoutY="320.0" mnemonicParsing="false" onAction="#handleBtnConfirm" text="Confirm Reservation">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnReturn" layoutX="14.0" layoutY="521.0" mnemonicParsing="false" onAction="#handleBtnReturn" prefHeight="27.0" prefWidth="131.0" text="Return">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
