@@ -1,6 +1,6 @@
 # Restaurant-App
 
-A restaurant management application made with Java FX and Scenebuilder. This app helps restaurant staff manage orders, menus, and customer interactions efficiently. Also customers can make reservations and orders.
+A restaurant management application made with JavaFX and Scenebuilder. This app helps restaurant staff manage orders, menus, and customer interactions efficiently. Also customers can make reservations and orders.
 
 ## Features
 
